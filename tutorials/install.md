@@ -68,11 +68,6 @@ Gazebo Common requires:
   * [Gazebo CMake](https://gazebosim.org/libs/cmake)
   * [Gazebo Math](https://gazebosim.org/libs/math).
 
-The Graphics component requires:
-
-  * [FreeImage](http://freeimage.sourceforge.net/)
-  * [GTS](http://gts.sourceforge.net/).
-
 The AV component requires:
 
   * [libswscale](https://www.ffmpeg.org/libswscale.html)
@@ -98,7 +93,7 @@ conda activate gz-ws
 
 Install prerequisites:
 ```
-conda install freeimage gdal gts glib dlfcn-win32 ffmpeg --channel conda-forge
+conda install gdal glib dlfcn-win32 ffmpeg --channel conda-forge
 ```
 
 Install Gazebo dependencies:
