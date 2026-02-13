@@ -17,8 +17,7 @@ target_link_libraries(${graphics_target}
     gz-utils${GZ_UTILS_VER}::gz-utils${GZ_UTILS_VER}
   PRIVATE
     ${GzAssimp_LIBRARIES}
-    GTS::GTS
-    FreeImage::FreeImage)
+    GTS::GTS)
 
 gz_build_tests(
   TYPE UNIT

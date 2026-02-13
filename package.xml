@@ -16,7 +16,6 @@
   <depend>ffmpeg-dev</depend>
   <depend>gz-math7</depend>
   <depend>gz-utils2</depend>
-  <depend>libfreeimage-dev</depend>
   <depend>libgdal-dev</depend>
   <depend>libgts</depend>
   <depend>tinyxml2</depend>
